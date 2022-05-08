@@ -2,11 +2,13 @@
 
 The project focuses on chess data gathered by Lichess and available for download [here](https://database.lichess.org).
 
+The goal of this project was to do two things: find if white has an advantage in the game of chess, and, if so, to find what factors play most heavily into that advantage. This project utilizes data from December 2015, consisting of just over four million games.
+
 The basic tasks of this project are split into two separate Jupyter Notebooks, one to grab the data from Lichess and clean it, and the other to run all analysis on said cleaned data.
 
 Coming direct from Lichess, the data looks like this:
 
-```json
+```
 [Event "Rated Bullet tournament https://lichess.org/tournament/yc1WW2Ox"]
 [Site "https://lichess.org/PpwPOZMq"]
 [Date "2017.04.01"]
